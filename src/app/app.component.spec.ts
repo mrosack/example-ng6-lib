@@ -1,8 +1,12 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { ExampleNg6LibModule } from 'example-ng6-lib';
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
+      imports: [
+        ExampleNg6LibModule
+      ],
       declarations: [
         AppComponent
       ],
